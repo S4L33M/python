@@ -2,7 +2,7 @@ run = True
 user = input("\n Enter your name: ")
 print("Hello " + user +"\n")
 while run:
-    x = input("\n Add contact: ")
+    x = input("\n Do you want to add a contact: ")
     print()
     if x == "yes":
         a = input("contact's name: ")
